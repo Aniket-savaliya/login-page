@@ -48,6 +48,7 @@ img{
     margin: auto;
     display: flex;
     border-radius: 1%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .inner .image-holder{
@@ -112,9 +113,8 @@ select{
 
 button{
     border: none;
-    width: 164px;
+    width: 100px;
     height: 51px;
-    margin: auto;
     cursor: pointer;
     display: flex;
     align-items: center;
@@ -123,7 +123,7 @@ button{
     background: #4caf50;
     font-size: 15px;
     color: #fff;
-    border-radius: 10%;
+    border-radius: 15%;
 }
 button:hover{
     background: #45a049;
